@@ -1,4 +1,5 @@
 open Batteries
+open Ability
 
 let locale = GtkMain.Main.init ()
 
