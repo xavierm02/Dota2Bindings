@@ -42,4 +42,6 @@ let rec build_menu_content : 'a.  (#GMenu.menu_shell as 'a) GMenu.factory -> men
 			build_menu_content subfactory submenu.menu_content
 	)
 
-	
+let add_menu_bar ~packing:packing menu_bar_content =
+	let menu_bar = GMenu.menu_bar ~packing:packing () in
+  build_menu_content (new GMenu.factory menu_bar) menu_bar_content
