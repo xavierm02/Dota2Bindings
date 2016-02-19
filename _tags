@@ -1,1 +1,1 @@
-true: package(lablgtk2), package(lablgtk2.init), package(batteries)
+true: package(lablgtk2), package(batteries)
