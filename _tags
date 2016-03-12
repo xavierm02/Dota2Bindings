@@ -1,1 +1,2 @@
-true: package(lablgtk2), package(batteries)
+true: package(lablgtk2), package(batteries), package(ppx_import)
+true: package(ppx_deriving.std)
